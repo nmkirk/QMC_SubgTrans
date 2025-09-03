@@ -17,7 +17,6 @@ If you find this useful, please consider referencing our work and related work:
 
 and
 
-```bibtex
 @inproceedings{Bansal2025,
   title={Quasi-Monte Carlo Beyond Hardy-Krause},
   author={Bansal, N. and Jiang, H.},
