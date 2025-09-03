@@ -1,18 +1,28 @@
 # QMC_SubgTrans
 Implementation of SubgTrans and WSubgTrans for quasi-Monte Carlo sampling constructions via combinatorial discrepancy.
 
-
 ## Citation
 If you find this useful, please consider referencing our work and related work:
 
 ```bibtex
-@article{rusch2024mpmc,
-  title={Message-Passing Monte Carlo: Generating low-discrepancy point sets via graph neural networks},
-  author={Rusch, T. K. and Kirk, N. and Bronstein, M. and Lemieux, C. and Rus, D.},
-  journal={Proceedings of the National Academy of Sciences},
-  volume={121},
-  number={40},
-  pages={e2409913121},
-  year={2024},
-  doi={10.1073/pnas.2409913121}
+@misc{chen2025,
+      title={High-Dimensional Quasi-Monte Carlo via Combinatorial Discrepancy}, 
+      author={Jiaheng Chen and Haotian Jiang and Nathan Kirk},
+      year={2025},
+      eprint={2508.18426},
+      archivePrefix={arXiv},
+      primaryClass={math.NA},
+      url={https://arxiv.org/abs/2508.18426}, 
+}
+
+and
+
+```bibtex
+@inproceedings{Bansal2025,
+  title={Quasi-Monte Carlo Beyond Hardy-Krause},
+  author={Bansal, N. and Jiang, H.},
+  booktitle={Proceedings of the 2025 Annual ACM-SIAM Symposium on Discrete Algorithms (SODA)},
+  pages={2051--2075},
+  year={2025},
+  organization={SIAM}
 }
