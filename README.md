@@ -3,7 +3,9 @@ Implementation of SubgTrans and WSubgTrans for quasi-Monte Carlo constructions v
 
 # Illustration of Method
 
-<img src="images/illustration.jpg" width="400"/>
+<p align="center">
+  <img src="images/illustration.jpg" width="600"/>
+</p>
 
 ## Installation
 
