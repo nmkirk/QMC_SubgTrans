@@ -1,5 +1,9 @@
 # QMC_SubgTrans
-Implementation of SubgTrans and WSubgTrans for quasi-Monte Carlo constructions via combinatorial discrepancy.
+Implementation of SubgTrans and WSubgTrans for quasi-Monte Carlo (QMC) constructions via combinatorial discrepancy.
+
+**SubgTrans** generates \(n\) sets of \(n\)-element QMC constructions in \([0,1]^d\) by iteratively coloring an initial IID random population of size \(n^2\) to minimize combinatorial discrepancy with respect to dyadic boxes. After each balanced coloring step, every set is split into two.
+
+**WSubgTrans**, a weighted variant designed for higher dimensions, constructs QMC sets in a similar manner but incorporates coordinate weights. Because computational complexity grows rapidly with dimension, this approach is most effective when the target integrand has a small effective dimension, allowing the algorithm to remain computationally tractable.
 
 # Illustration of Method
 
